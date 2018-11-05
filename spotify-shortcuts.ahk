@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 commands := "Commands `r`nCtrl+Alt+Space = Play/Pause `r`nCtrl+Alt+Right Arrow = Next Song `r`nCtrl+Alt+Left Arrow = Previous Song `r`nCtrl+Alt+Up Arrow = Volume Up `r`nCtrl+Alt+Down Arrow = Volume Down"
 
-^!1::
+^!0::
 MsgBox, %commands%
 return
 
